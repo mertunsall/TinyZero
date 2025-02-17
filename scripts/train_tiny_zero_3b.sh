@@ -1,8 +1,8 @@
 export N_GPUS=8
-export BASE_MODEL="/DATA/disk3/mert/tinyzero/Qwen2.5-1.5B"
+export BASE_MODEL="/DATA/disk3/mert/tinyzero/Qwen2.5-3B"
 export DATA_DIR="/DATA/disk3/mert/tinyzero/countdown_base"
 export ROLLOUT_TP_SIZE=2
-export EXPERIMENT_NAME=countdown-qwen2.5-1.5b
+export EXPERIMENT_NAME=countdown-qwen2.5-3b
 export VLLM_ATTENTION_BACKEND=XFORMERS
 
 
